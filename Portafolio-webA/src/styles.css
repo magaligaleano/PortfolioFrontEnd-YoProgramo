@@ -1,1 +1,265 @@
 /* You can add global styles to this file, and also import other style files */
+/* Barra de navegacion */
+
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* Estilos generales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+
+}
+.seccion-oscura {
+    color: white;
+    background-color: #3b1b47;
+}
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+.seccion-titulo {
+    font-size: 2rem;
+    padding-bottom: 25px;
+    font-family: 'Rubik Dirt', cursive;
+}
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #181616;
+    font-weight: bold;
+}
+.seccion-texto {
+    font-size: 1.2rem;
+}
+.texto-negro {
+    color: black;
+}
+.texto-blanco {
+    color: white;
+}
+
+/* Seccion Hero */
+
+.hero {
+    background-color: #ddb0dd;
+    min-height: 450px;
+    text-align: center;
+}
+.hero-principal {
+    padding: 3rem;
+
+}
+.hero-imagen-perfil {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 4px solid rgb(34, 11, 11);
+
+}
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+}
+/*Acerca de mi*/
+.acerca-de-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.acerca-de-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+/* Proyectos */
+.proyectos {
+    padding: 40px;
+    background-color: #ddb0dd;
+}
+.proyectos img {
+    height: 200px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.proyecto {
+    position: relative;
+
+}
+.proyecto:hover img {
+    opacity: 0.2;
+}
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+.overlay i {
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+}
+/*Aptitudes*/
+.titulo {
+    margin: 30px;
+}
+.accordion-button{
+    background-color: #ddb0dd;
+}
+.accordion {
+    margin: 50px;
+}
+/*Contacto*/
+.contacto {
+    background-color: #ddb0dd;
+}
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+.contacto .rectangulo {
+    margin-top: -3rem;
+    background-color: #3b1b47;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contacto .descripcion {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.contacto button {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+
+}
+.contacto button:hover {
+    background-color: white;
+    color: black;
+}
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover i {
+    color: black;
+}
+/*Footer*/
+
+footer {
+    min-height: 150px;
+}
+.logo-footer {
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+    
+}
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid #ddb0dd;
+}
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+.copyright {
+    font-size: 15px;
+    padding: 20px;
+    color: #b4a9a9;
+}
+
+/* Responsive */
+@media screen and (max-width:400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+    .overlay i {
+        font-size: 30px;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .proyectos img{
+        width: 320px;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+
+    }
+}
+@media screen and (min-width:600px){
+    .hero-inferior-imagen {
+        max-width: 800px;
+    }
+}
