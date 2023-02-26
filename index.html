@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Magali Galeano">
+    <meta name="description" content="Portafolio de desarrollo web de Magali Galeano">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+  <!-- Titulo -->
+    <title>Magali Galeano | Desarrollo Web Front-End</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="images/icono.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Sofia+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+      <!-- Barra de navegacion -->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="images/icono.png" width="50" alt="logo de la pagina web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#acerca-de-mi">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aptitudes">Aptitudes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Seccion Hero -->
+      <section class="hero align items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+          <img class="hero-imagen-perfil rounded-circle" src="images/fotoperfil.png" alt=" foto de Magali Galeano">
+          <h1>Hola, soy Magali Galeano</h1>
+          <h2>Desarrollo sitios web </h2>
+        </div>
+        <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="images/hero2.jpg" alt="imagen de computadora">
+        </div>
+      </section>
+      <!-- Acerca de mi -->
+      <section id="acerca-de-mi" class="acerca-de-mi seccion-oscura">
+        <div class="contenedor">
+          <h2 class="seccion-titulo">Conoceme</h2>
+          <p class="seccion-texto">
+            Estoy cursando una tecnicatura de desarrollo web en la Universidad de la Matanza y además me encuentro
+            cursando la segunda etapa en Argentina Programa.
+            También aprendo programación de forma autodidacta, mirando videos y a través de cursos online.
+            Domino lenguajes como HTML, CSS. JavaScript, Bootstrap, TypeScript y frameworks como Angular y React.
+            Actualmente no tengo experiencia trabajando como programadora, pero tengo muchas ganas de aportar mis
+            habilidades programando dentro de una empresa y seguir aprendiendo.
+          </p>
+        </div>
+      </section>
+      <!-- Proyectos -->
+      <section id="proyectos"class="proyectos seccion-clara d-flex flex-colum">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+        <h3 class="seccion-descripcion">Estos son algunos de mis proyectos...</h3>
+        <div class="container text-center proyectos-contenedor">
+          <!-- Proyecto 1 -->
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="images/Proyecto1.PNG" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto1</p>
+                  <div class="icono-contenedor d-flex justify-content-center">
+                    <a href="https://github.com/magaligaleano/Estudio-juridico.git" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- Proyecto 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="images/Proyecto2.PNG" alt="Proyecto 2">
+                <div class="overlay">
+                  <p>Proyecto 2</p>
+                  <div class="icono-contenedor">
+                    <a href="https://github.com/magaligaleano/pagina-web-programaYa.git" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!--Proyecto 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="images/Proyecto3.PNG" alt="Proyecto 3">
+                <div class="overlay">
+                  <p>Proyecto 3</p>
+                  <div class="icono-contenedor">
+                    <a href="https://github.com/magaligaleano/Pagina-web-Next.git" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- Proyecto 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="images/Proyecto4.PNG" alt="Proyecto 4">
+                <div class="overlay">
+                  <p>Proyecto 4</p>
+                  <div class="icono-contenedor">
+                    <a href="https://github.com/magaligaleano/contador-de-clics.git" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- Proyecto 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="images/Proyecto5.PNG" alt="Proyecto 5">
+                <div class="overlay">
+                  <p>Proyecto 5</p>
+                  <div class="icono-contenedor">
+                    <a href="https://github.com/magaligaleano/Calculadora.git" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- Proyecto 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="images/Proyecto6.PNG" alt="Proyecto 6">
+                <div class="overlay">
+                  <p>Proyecto 6</p>
+                  <div class="icono-contenedor">
+                    <a href="https://github.com/magaligaleano/Pagina-web-AfricanBraids.git" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="" target="_blank" rel="nooperer noreferrer">
+          <button type="button" class="btn btn-dark">Ver mas proyectos
+            <i class="bi bi-arrow-right-circle"></i>
+          </button>
+        </a>
+        
+      </section>
+<!-- Aptitudes -->
+<section id="aptitudes" class="aptitudes seccion-clara">
+  <h2 class="seccion-titulo titulo">Aptitudes</h2>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Autodidacta
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Desde un principio tuve mucha motivación y ganas de aprender a programar y lo hacia mirando videos en Youtube y realizando cursos online. De esta manera, pude adquirir mis conocimientos en los lenguajes Frontend.</strong>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Trabajo en equipo
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Dentro del ámbito universitario tuve la oportunidad de programar en grupo en lenguaje Java, si querés conocer mas acerca de estos proyectos te dejo el link a mi repositorio de GitHub en la sección de pie de pagina.</strong>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Resolucion de problemas
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Al ser autodidacta, muchas veces tuve que buscar la manera de realizar un codigo funcional, investigar y solucionar cualquier error que se genere. A su vez, en la universidad pude trabajar bastante en mis actitudes resolutivas y proactivas, trabajando en equipo y resolviendo diferentes retos.</strong>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Ganas de aprender
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Tengo gran interes en aprender todo lo que sea necesario para tener un buen rendimiento en diferentes puestos y tener la oportunidad de poder crecer laboralmente dentro de una empresa.</strong>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Pasion por la programacion
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Para mi es importante destacar que programar es algo que me apasiona, planeo dedicarme laboralmente a esto y cumplir todos mis objetivos de ahora en más.</strong>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+<!-- Contacto -->
+
+<section id="contacto" class="contacto texto-blanco">
+  <div class="container">
+    <div class="container text-center rectangulo d-flex justify-content-evenly">
+      <div class="row">
+        <div class="col-12 col-md-4 seccion-titulo">
+          ¡Hablemos!
+        </div>
+        <div class="col-12 col-md-4 descripcion">
+          Contáctame
+          <i class="bi bi-arrow-right-circle"></i>
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="mailto:magali.galeano10@outlook.com">
+            <button type="button">Contacto
+              <i class="bi bi-envelope-check"></i>
+            </button>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</section>
+      <!-- Footer -->
+      <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="logo-footer " src="images/icono-blanco.svg" alt="Logo del Portafolio">
+        <p class="footer-texto text-center">"Controlar la complejidad es la esencia de la programación"</p>
+        
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+          <a href="https://github.com/magaligaleano" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/magaligaleano/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="mailto:magali.galeano10@outlook.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope-at-fill"></i>
+          </a>
+          
+        </div>
+        <div class="copyright">Creado por Magali Galeano (2023) &#169;</div>
+
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    </body>
+
+    </html>
