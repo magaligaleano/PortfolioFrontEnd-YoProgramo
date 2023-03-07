@@ -1,0 +1,33 @@
+
+{
+    "name" : "Magali Galeano",
+    "ocupation": "Desarrollo sitios web",
+    "about_me":{
+            "title": "Conoceme",
+            "description": "Estoy cursando una tecnicatura de desarrollo web en la Universidad de la Matanza y además me encuentro cursando la segunda etapa en Argentina Programa. Tambien aprendo programación de forma autodidacta, mirando videos y a través de cursos online. Domino lenguajes como HTML, CSS. JavaScript, Bootstrap, TypeScript y frameworks como Angular y React. Actualmente no tengo experiencia trabajando como programadora, pero tengo muchas ganas de aportar mis habilidades programando dentro de una empresa y seguir aprendiendo."  
+        } ,
+    "projects":{
+            "title":"Mis proyectos",
+            "description":"Estos son algunos de mis proyectos..."
+
+
+        },
+    "aptitudes":{
+            "autodidact":"Desde un principio tuve mucha motivación y ganas de aprender a programar y lo hacia mirando videos en Youtube y realizando cursos online. De esta manera, pude adquirir mis conocimientos en los lenguajes Frontend.",
+            "teamwork":"Dentro del ámbito universitario tuve la oportunidad de programar en grupo en lenguaje Java, si querés conocer mas acerca de estos proyectos te dejo el link a mi repositorio de GitHub en la sección de pie de pagina.",
+            "problemResolution":"Al ser autodidacta, muchas veces tuve que buscar la manera de realizar un codigo funcional, investigar y solucionar cualquier error que se genere. A su vez, en la universidad pude trabajar bastante en mis actitudes resolutivas y proactivas, trabajando en equipo y resolviendo diferentes retos.",
+            "eagerToLearn":"Tengo gran interes en aprender todo lo que sea necesario para tener un buen rendimiento en diferentes puestos y tener la oportunidad de poder crecer laboralmente dentro de una empresa.",
+            "passionForProgramming":"Para mi es importante destacar que programar es algo que me apasiona, planeo dedicarme laboralmente a esto y cumplir todos mis objetivos de ahora en más."
+        },
+    "contact":{
+            "title": "¡Hablemos!",
+            "description":"Contactame",
+            "email": "mailto:magali.galeano10@outlook.com"           
+        },
+    "footer":{
+        "phrase":"Controlar la complejidad es la esencia de la programación",
+        "copyright":"Creado por Magali Galeano (2023)"
+    }
+
+    }
+
