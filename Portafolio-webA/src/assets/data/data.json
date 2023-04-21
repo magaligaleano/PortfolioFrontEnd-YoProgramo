@@ -1,10 +1,10 @@
 
 {
     "name" : "Magali Galeano",
-    "ocupation": "Desarrollo sitios web",
+    "ocupation": "Programadora FullStack Jr.",
     "about_me":{
             "title": "Conoceme",
-            "description": "Estoy cursando una tecnicatura de desarrollo web en la Universidad de la Matanza y además me encuentro cursando la segunda etapa en Argentina Programa. Tambien aprendo programación de forma autodidacta, mirando videos y a través de cursos online. Domino lenguajes como HTML, CSS. JavaScript, Bootstrap, TypeScript y frameworks como Angular y React. Actualmente no tengo experiencia trabajando como programadora, pero tengo muchas ganas de aportar mis habilidades programando dentro de una empresa y seguir aprendiendo."  
+            "description": "Estoy cursando una tecnicatura de desarrollo web en la Universidad de la Matanza y además me encuentro cursando la segunda etapa en Argentina Programa. Tambien aprendo programación de forma autodidacta, mirando videos y a través de cursos online. Domino lenguajes como HTML, CSS. JavaScript, Bootstrap, TypeScript, SQL, Java y frameworks como Angular, React y Springboot. Actualmente no tengo experiencia trabajando como programadora, pero tengo muchas ganas de aportar mis habilidades programando dentro de una empresa y seguir aprendiendo."  
         } ,
     "projects":{
             "title":"Mis proyectos",
