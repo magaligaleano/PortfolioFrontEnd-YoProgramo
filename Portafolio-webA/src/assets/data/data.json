@@ -1,6 +1,7 @@
 
 {
-    "name" : "Magali Galeano",
+    "name" : "Magali",
+    "apellido": "Galeano",
     "ocupation": "Programadora FullStack Jr.",
     "about_me":{
             "title": "Conoceme",
