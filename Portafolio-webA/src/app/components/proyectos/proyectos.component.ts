@@ -10,10 +10,9 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 export class ProyectosComponent implements OnInit{
   proyectos:any;
   constructor(private datosPortfolio:PortfolioService){ }
+  
   ngOnInit():void {
-    this.datosPortfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-      this.proyectos=data.projects;
-    });
-  }
+   
+  
+}
 }

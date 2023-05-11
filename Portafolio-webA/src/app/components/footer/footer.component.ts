@@ -11,9 +11,6 @@ export class FooterComponent implements OnInit{
   footer:any;
   constructor(private datosPortfolio:PortfolioService){ }
   ngOnInit():void {
-    this.datosPortfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-      this.footer=data.footer;
-    });
+  
   }
 }

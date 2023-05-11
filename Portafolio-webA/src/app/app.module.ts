@@ -14,9 +14,9 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { IniciarSessionComponent } from './components/iniciar-session/iniciar-session.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PortfolioService } from './servicios/portfolio.service';
-import { InterceptorService } from './servicios/interceptor.service';
+import { interceptorProvider, InterceptorService } from './servicios/interceptor.service';
 
 @NgModule({
   declarations: [
@@ -36,10 +36,11 @@ import { InterceptorService } from './servicios/interceptor.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    FormsModule
   ],
-  providers: [PortfolioService,
-    { provide : HTTP_INTERCEPTORS, useClass: InterceptorService, multi:true}
+  providers: [
+    interceptorProvider
+    
   ],
   bootstrap: [AppComponent]
 })

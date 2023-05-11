@@ -11,10 +11,7 @@ export class HeaderComponent {
   constructor(private datosPortfolio:PortfolioService){ }
 
   ngOnInit():void {
-    this.datosPortfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-      this.miPortfolio=data;
-    });
+  
   }
 }
 

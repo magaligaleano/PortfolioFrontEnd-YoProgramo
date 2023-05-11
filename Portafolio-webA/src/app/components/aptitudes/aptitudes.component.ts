@@ -11,9 +11,6 @@ export class AptitudesComponent implements OnInit{
   aptitudes:any;
   constructor(private datosPortfolio:PortfolioService){ }
   ngOnInit():void {
-    this.datosPortfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-      this.aptitudes=data.aptitudes;
-    });
+    
   }
 }

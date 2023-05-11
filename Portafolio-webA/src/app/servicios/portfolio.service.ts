@@ -1,15 +1,16 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { persona } from '../model/persona.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PortfolioService {
-  url:string = "urlApi";
+  url:string = "http://localhost:8080/personas/";
+
   constructor(private http:HttpClient) { }
-  obtenerDatos():Observable<any> {
-    //(this.url+"persona");
-    return this.http.get('./assets/data/data.json');
+  getPersona():Observable<any> {
+    return this.http.get<any>(this.url + "lista");
   }
 }

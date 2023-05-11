@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { persona } from 'src/app/model/persona.model';
 import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
 @Component({
@@ -7,12 +8,12 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./acerca-de.component.css']
 })
 export class AcercaDeComponent implements OnInit{
-  acerca:any;
-  constructor(private datosPortfolio:PortfolioService){ }
+  acercaDe:any;
+  constructor(private datosPersona:PortfolioService){ }
   ngOnInit():void {
-    this.datosPortfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-      this.acerca=data;
+    this.datosPersona.getPersona().subscribe(data =>{
+      console.log("Datos "+ JSON.stringify(data))
+      this.acercaDe = data[0];
     });
   }
 }

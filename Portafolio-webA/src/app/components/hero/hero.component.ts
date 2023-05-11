@@ -8,11 +8,12 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 })
 export class HeroComponent implements OnInit{
   hero:any;
-  constructor(private datosPortfolio:PortfolioService){ }
+  constructor(private datosPersona:PortfolioService){ }
   ngOnInit():void {
-    this.datosPortfolio.obtenerDatos().subscribe(data =>{
-      console.log(data);
-      this.hero=data;
+    this.datosPersona.getPersona().subscribe(data =>{
+      console.log("Datos "+ JSON.stringify(data))
+      this.hero = data[0];
     });
+
   }
 }
