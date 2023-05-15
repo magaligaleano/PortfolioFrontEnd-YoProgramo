@@ -1,0 +1,44 @@
+[debug] [2023-05-15T14:05:01.040Z] ----------------------------------------------------------------------
+[debug] [2023-05-15T14:05:01.045Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mogul\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-15T14:05:01.046Z] CLI Version:   12.0.0
+[debug] [2023-05-15T14:05:01.046Z] Platform:      win32
+[debug] [2023-05-15T14:05:01.047Z] Node Version:  v18.14.0
+[debug] [2023-05-15T14:05:01.048Z] Time:          Mon May 15 2023 11:05:01 GMT-0300 (hora estándar de Argentina)
+[debug] [2023-05-15T14:05:01.048Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-15T14:05:01.193Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-15T14:05:01.194Z] > authorizing via signed-in user (m4gui.512@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mogul\OneDrive\Escritorio\mi-portfolio\PortafolioFrontEnd\Portafolio-web\Portafolio-webA
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-15T14:05:26.378Z] Using project from CLI flag: portfolio-frontend-magui
+[debug] [2023-05-15T14:05:26.387Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-frontend-magui [none]
+[debug] [2023-05-15T14:05:26.976Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-frontend-magui 200
+[debug] [2023-05-15T14:05:26.977Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-frontend-magui {"projectId":"portfolio-frontend-magui","projectNumber":"371775550022","displayName":"portfolio-frontend-magui","name":"projects/portfolio-frontend-magui","resources":{"hostingSite":"portfolio-frontend-magui"},"state":"ACTIVE","etag":"1_30189ac3-42a2-4480-aaf8-1fa000d7dfd0"}
+[info] i  Using project portfolio-frontend-magui (portfolio-frontend-magui) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
