@@ -17,6 +17,9 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PortfolioService } from './servicios/portfolio.service';
 import { interceptorProvider, InterceptorService } from './servicios/interceptor.service';
+import { GuardGuard } from './servicios/guard.guard';
+
+
 
 @NgModule({
   declarations: [
@@ -30,17 +33,19 @@ import { interceptorProvider, InterceptorService } from './servicios/interceptor
     FooterComponent,
     EducacionComponent,
     IniciarSessionComponent,
-    PortfolioComponent
+    PortfolioComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    
+
   ],
   providers: [
-    interceptorProvider
-    
+    interceptorProvider,
+    GuardGuard
   ],
   bootstrap: [AppComponent]
 })
