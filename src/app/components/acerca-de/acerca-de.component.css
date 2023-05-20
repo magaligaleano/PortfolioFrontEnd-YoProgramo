@@ -1,0 +1,9 @@
+.acerca-de-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.acerca-de-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
