@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProyectoService {
-  urlPro:string = "http://localhost:8080/proyecto/";
+  urlPro:string = "https://backendmg-rnel.onrender.com/proyecto/";
 
   constructor(private http:HttpClient) { }
   getProyecto():Observable<any> {

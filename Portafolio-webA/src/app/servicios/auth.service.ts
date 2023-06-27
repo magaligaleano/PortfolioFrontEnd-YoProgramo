@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'http://localhost:8080/auth/';
+  authURL = 'https://backendmg-rnel.onrender.com/auth/';
   isLogged = false;
   isLogginFail = false;
   loginUsuario!: LoginUsuario;

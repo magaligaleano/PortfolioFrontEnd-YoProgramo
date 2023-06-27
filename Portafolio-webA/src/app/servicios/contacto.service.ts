@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ContactoService {
-  urlCont:string = "http://localhost:8080/contacto/";
+  urlCont:string = "https://backendmg-rnel.onrender.com/contacto/";
 
   constructor(private http:HttpClient) { }
   getContacto():Observable<any> {

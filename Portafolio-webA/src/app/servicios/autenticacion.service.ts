@@ -7,7 +7,7 @@ import { LoginUsuario } from '../model/login-usuario';
   providedIn: 'root'
 })
 export class AutenticacionService {
-  url="http://localhost:8080/auth/login";
+  url="https://backendmg-rnel.onrender.com/auth/login";
   currentUserSubject: BehaviorSubject<any>
 
   constructor(private http:HttpClient) {

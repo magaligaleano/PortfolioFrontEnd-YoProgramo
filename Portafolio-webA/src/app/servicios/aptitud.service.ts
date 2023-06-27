@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AptitudService {
-  urlApt:string = "http://localhost:8080/aptitud/";
+  urlApt:string = "https://backendmg-rnel.onrender.com/aptitud/";
 
   constructor(private http:HttpClient) { }
   getAptitud():Observable<any> {

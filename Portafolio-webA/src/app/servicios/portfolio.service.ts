@@ -7,7 +7,7 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PortfolioService {
-  url:string = "http://localhost:8080/personas/";
+  url:string = "https://backendmg-rnel.onrender.com/personas/";
 
   constructor(private http:HttpClient) { }
   getPersona():Observable<any> {

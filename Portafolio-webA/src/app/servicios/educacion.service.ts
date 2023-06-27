@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class EducacionService {
-  urlEdu:string = "http://localhost:8080/educacion/";
+  urlEdu:string = "https://backendmg-rnel.onrender.com/educacion/";
   constructor(private http:HttpClient) { }
   obtenerDatos():Observable<any> {
     return this.http.get<any>(this.urlEdu + 'lista');
