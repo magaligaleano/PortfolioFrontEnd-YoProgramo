@@ -1,7 +1,6 @@
 {
   "projects": {
-    "default": "portfolio-frontend-magui",
-    "produccion": "portfolio-frontend-magui"
+    "default": "portfolio-frontend-magui"
   },
   "targets": {},
   "etags": {}
